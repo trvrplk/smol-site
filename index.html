@@ -1,6 +1,26 @@
 <html>
   <head>
-    <!--#include file="./header.html" -->
+		<title>My tilde.club page</title>
+		<!-- <link rel="stylesheet" href="/css/main.css"> -->
+		<style>
+		  .marquee h1  {
+		      display: inline-block;
+		      padding-left: 100%;
+		      animation: marquee 9s linear infinite;
+		      white-space: nowrap;
+		  }
+		  @keyframes marquee {
+		      0%   { transform: translate(0, 0); }
+		      100% { transform: translate(-100%, 0); }
+		  }
+		  
+		  .center {text-align: center;}
+		  .right {text-align: right;}
+		  #lastfm, .two-col-grid {
+		    display: grid;
+		    grid-template-columns: .05fr .5fr;
+		    }
+		</style>
   </head>
   <body>
     <div class="marquee" id= "name-heading"><h1>hi i'm trever</h1></div>
@@ -27,7 +47,45 @@
     <br />
     <hr />
     
-    <!--#include file="./footer.html" -->
-    
+		<!-- begin banners/badges -->
+		<div class="center">
+		  <img src="http://the-tech.mit.edu/Projects/Macmade/macmade-wht.gif" />
+		  <!-- <img src="http://tilde.club/~trever/made__anim.gif" /> -->
+		  <img src="http://kewlpinguino.com/misc/fosters50.gif" />	
+		  <img src="http://kewlpinguino.com/misc/regular-show-fan.jpg" />
+		  <img src="http://kewlpinguino.com/misc/pokemon-makes-me-happy.png" />
+		  <!-- <img src="http://tilde.club/~trever/tildeclub.gif" /> -->
+		</div>
+		<!-- end banners/badges -->
+		
+		<br />
+		
+		<!-- <img src="http://tilde.club/~trever/nube.gif" /> -->
+		
+		<br />
+		
+		<div class="center"><img src="https://64.media.tumblr.com/9b5b9bd9a25a87aa64dd842aeaf5fd5d/f6dd5da8f8268cc0-ba/s1280x1920/cb826c11886a158f6cec5e4f1d9b3e4f3a5a35f2.gifv" /></div>
+		
+		<!-- Begin Tilde.Club Ring Fragment-->
+		<div class="center">
+		  <font size="2">
+		  </font></p><center><font size="2">
+		  <div class="center">
+		    <br><img src="http://tilde.club/~harper/webring.png"  border="0" usemap="#notepad.map"><br>
+		  </div>
+		  <br>
+		  Click for the [
+		  <a href="http://tilde.club/~harper/link.html?action=random" target="_top">Random page</a> ]
+		  <br>
+		  Want to join the ring? Click here for
+		  <a href="http://tilde.club/~harper/link.html?action=info" target="_top">info</a>.
+		  <br></font></div>
+		  <map name="notepad.map">
+		    <area shape="rect" coords="0, 0, 60, 70" target="_top" href="http://tilde.club/~harper/link.html?action=join">
+		    <area shape="rect" coords="130, 0, 417, 75" target="_top" href="http://tilde.club/~harper/link.html?action=random">
+		    <area shape="rect" coords="465, 0, 549, 75" target="_top" href="http://tilde.club/~harper/link.html?action=join">
+		  </map>
+		</div>
+		<!-- End Webring Fragment-->    
   </body>
 </html>
