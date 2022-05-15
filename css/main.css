@@ -2,7 +2,7 @@
 
 :root {
   --font-family:"Verdana", sans-serif;
-  --font-size:x-small;
+  /* --font-size:x-small; */
   --sidebar-border:1px solid #E6E6C3;
   --link-color:blue;
   --bg-color:white;
@@ -133,3 +133,5 @@ content {
 
 
 .center {text-align: center;}
+
+#sidebar {font-size:x-small;}
